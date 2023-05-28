@@ -27,6 +27,7 @@ class int_iter:
 if __name__ == "__main__":
 
     print("*"*10)
-    a = int_iter(589210021)
+    a = int_iter(8765135)
     for i in a:
-        print(i)
+        print(i**2)
+    
